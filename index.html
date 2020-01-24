@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <center>
+        <h2>Welcome to Fans Calc App</h2>
+        <div class="myinputs">
+            <form name="calc">
+                <input class="calcInput" name="show" type="text">
+                <br>
+                <input type="button" Value="7" class="btn1" onclick="calc.show.value +='7'">
+                <input type="button" value="8" class="btn1" onclick="calc.show.value +='8'">
+                <input type="button" value="9" class="btn1" onclick="calc.show.value +='9'">
+                <input type="button" value="x" style="background-color: gold" class="btn1" onclick="calc.show.value +='*'">
+                <br>
+                <input type="button" value="4" class="btn1" onclick="calc.show.value +='4'">
+                <input type="button" value="5" class="btn1" onclick="calc.show.value +='5'">
+                <input type="button" value="6" class="btn1" onclick="calc.show.value +='6'">
+                <input type="button" value="-" style="background-color: green" class="btn1" onclick="calc.show.value +='-'">
+                <br>
+                <input type="button" value="1" class="btn1" onclick="calc.show.value +='1'">
+                <input type="button" value="2" class="btn1" onclick="calc.show.value +='2'">
+                <input type="button" value="3" class="btn1"  onclick="calc.show.value +='3'"> 
+                <input type="button" value="+" style="background-color: blue;" class="btn1" onclick="calc.show.value +='+'">
+                <br>
+                <input type="button" value="C" style="background-color: red;" class="btn1" onclick="calc.show.value =''">
+                <input type="button" value="0" class="btn1" onclick="calc.show.value +='0'">
+                <input type="button" value="&#247;"class="btn1" style="background-color:fuchsia;" onclick="calc.show.value +='/'">
+                <input type="button" value="=" class="btn1" style="background-color: aliceblue; color: #000;" onclick="calc.show.value=eval(calc.show.value)">
+    
+            </form>
+           
+
+        </div>
+    </center>
+</body>
+</html>

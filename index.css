@@ -1,0 +1,27 @@
+.myinputs{
+  
+}
+body{
+    background-color: antiquewhite;
+}
+.calcInput{
+    background-color: cornflowerblue;
+    border-radius: 0.5rem;
+    height: 35px;
+    width: 35rem;
+    margin-bottom: 0.89rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+} 
+
+.btn1{
+    margin-bottom: 0.89rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-color:black;
+    border-radius: 0.5rem;
+    height: 60px;
+    width: 8rem;
+}
